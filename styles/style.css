@@ -53,10 +53,23 @@ hr {
 .brand-logo img {
     width: 40px;
     height: 50px;
+    transition: 0.2s ease-in-out;
+}
+.brand-logo img:hover {
+    transform: scale(1.3);
+    transition: 0.2s ease-in-out;
+}
+.brand-name a {
+    text-decoration: none;
+}
+.brand-name a h2:hover {
+    color: black;
+    transition: 0.2s ease-in-out;
 }
 .brand-name h2 {
     color: #FFFFFF;
     margin-left: 15px;
+    transition: 0.2s ease-in-out;
 }
 .menu-items {
     display: flex;
@@ -69,6 +82,18 @@ hr {
     margin-left: 36px;
     text-decoration: none;
     color: #FFFFFF;
+    transition: 0.2s ease-in-out;
+}
+.menu-items a:hover {
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+.menu-items a img {
+    transition: 0.2s ease-in-out;
+}
+.menu-items a img:hover {
+    transform: scale(1.3);
+    transition: 0.2s ease-in-out;
 }
 
 /* top players style */
@@ -196,6 +221,16 @@ hr {
 .fa-clock {
     font-size: 20px;
     margin-right: 5px;
+}
+/* footer style */
+.foot-container {
+    width: 100%;
+    height: 94px;
+    background-color: #562EFF;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* ------------------
     Media Queries
